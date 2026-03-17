@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$asosiyrang:rgb(189, 5, 5);
+
+
+
+@import './global.scss';
+
+section {
+@include asosiy(300px,green)
+}
+
+nav{
+    @include asosiy(100px,blue);
+}
